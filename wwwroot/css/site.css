@@ -25,6 +25,11 @@ body {
     display: flex;
 }*/
 
+div .text-center pt-3 border-bottom {
+    display: flex;
+}
+
+
 
 .dashboard {
     /*background-color: #808080;*/
