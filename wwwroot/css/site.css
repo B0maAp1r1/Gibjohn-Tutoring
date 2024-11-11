@@ -130,4 +130,15 @@ div .bg-secondary {
     cursor: pointer;
 }
 
-div .
+div .nav_most_pop {
+    position: absolute;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 50px;
+    bottom: 350px;
+    font-weight: bold;
+    width: 43%;
+    min-height: 15px;
+    align-items: center;
+    justify-content: center;
+}
