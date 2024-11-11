@@ -25,11 +25,26 @@ body {
     display: flex;
 }*/
 
-div .text-center pt-3 border-bottom {
+div .head_bar pt-3 border-bottom{
     display: flex;
+    text-align: center;
+    height; 50px;
 }
 
+div .header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
+div .img_logo img {
+    width: 200px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 
 .dashboard {
     /*background-color: #808080;*/
