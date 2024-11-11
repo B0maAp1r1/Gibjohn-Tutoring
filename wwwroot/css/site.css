@@ -18,5 +18,115 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
+
+/*div .container-fluid{
+    display: flex;
+}*/
+
+
+.dashboard {
+    /*background-color: #808080;*/
+    width: 20%;
+    min-height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.db-option {
+    box-sizing: border-box;
+    width: 500px;
+    max-height: 250px;
+    background: #f9f9f9;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+    .db-option img {
+        width: 50px;
+        display: block;
+    }
+
+    .db-option p:nth-child(2) {
+        font-family: system-ui;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 25px 0 15px 0;
+    }
+
+    .db-option p:nth-child(3) {
+        font-family: system-ui;
+        font-size: 17px;
+        line-height: 30px;
+        height: 135px;
+    }
+
+    .db-option p:nth-child(4) {
+        font-family: system-ui;
+        font-size: 17px;
+        font-weight: 500;
+        text-transform: capitalize;
+        width: 200px;
+        transition: .3s all ease-in-out;
+    }
+
+    .db-option p:nth-child(5) {
+        font-family: system-ui;
+        font-size: 17px;
+        line-height: 30px;
+        height: 135px;
+    }
+
+    .db-option p:nth-child(6) {
+        font-family: system-ui;
+        font-size: 17px;
+        line-height: 30px;
+        height: 135px;
+    }
+
+.dashboard .pikin:nth-child(2) p:nth-child(4) .fa {
+    background: #e7f5fd;
+    color: #58a9fd;
+}
+
+.dashboard .pikin:nth-child(3) p:nth-child(4) .fa {
+    background: #e7fdf0;
+    color: #34ac62;
+}
+
+.dashboard .pikin:nth-child(4) p:nth-child(4) .fa {
+    background: #fbe9f5;
+    color: #e850a1;
+}
+
+div .popular_used {
+    position: absolute;
+    top: 650px;
+    left: 360px;
+    width: 70%;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+div .bg-secondary {
+    box-sizing: border-box;
+    width: 350px;
+    min-height: 300px;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
