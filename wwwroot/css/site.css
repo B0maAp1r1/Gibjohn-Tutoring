@@ -119,14 +119,26 @@ div .popular_used {
     justify-content: center;
 }
 
-div .bg-secondary {
-    box-sizing: border-box;
-    width: 350px;
-    min-height: 300px;
-    margin: 20px;
-    padding: 30px;
-    text-align: center;
-    border-radius: 20px;
-    cursor: pointer;
-}
+    div .popular_used nav {
+        position: absolute;
+        align-items: center;
+        background-color: #fbe9f5;
+        justify-content: center;
+        min-height: 30px;
+        width: 43%;
+        border-radius: 50px;
+        bottom: 350px;
+        text-align: center;
+    }
+
+    div .bg-secondary {
+        box-sizing: border-box;
+        width: 350px;
+        min-height: 300px;
+        margin: 20px;
+        padding: 30px;
+        text-align: center;
+        border-radius: 20px;
+        cursor: pointer;
+    }
 
