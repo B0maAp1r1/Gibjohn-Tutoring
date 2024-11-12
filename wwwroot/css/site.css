@@ -33,19 +33,19 @@ body {
 }
 /*Index.cshtml styling*/
 
-div .head_bar pt-3 border-bottom{
+.head_bar pt-3 border-bottom{
     display: flex;
     text-align: center;
 }
 
-div .header h2 ,p {
+.header h2 ,p {
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
-div .header img {
+.header img {
     position: absolute;
     width: 200px;
     display: flex;
@@ -60,7 +60,7 @@ div .header img {
     justify-content: center;
 }
 
-div .db_option_carrier {
+.db_option_carrier {
     display: flex;
     align-items: center;
     text-align: center;
@@ -104,7 +104,7 @@ a {
     color: #e850a1;
 }
 
-div .popular_used {
+.popular_used {
     position: absolute;
     top: 800px;
     left: 360px;
@@ -117,25 +117,25 @@ div .popular_used {
     justify-content: center;
 }
 
-    div .bg-secondary {
-        box-sizing: border-box;
-        opacity: 60%;
-        width: 300px;
-        min-height: 250px;
-        margin: 20px;
-        padding: 30px;
-        text-align: center;
-        border-radius: 20px;
-        cursor: pointer;
-    }
+.bg-secondary {
+    box-sizing: border-box;
+    opacity: 60%;
+    width: 300px;
+    min-height: 250px;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
 
-div .nav_most_pop {
-    position: absolute;
+.nav_most_pop nav{
+/*    position: absolute;*/
+    opacity: 60%;
     text-align: center;
     background-color: #f9f9f9;
     border-radius: 50px;
-    bottom: 350px;
-    font-weight: bold;
+    bottom: 200px;
     width: 43%;
     min-height: 15px;
     align-items: center;
@@ -146,13 +146,13 @@ div .nav_most_pop {
 
 /*Login.cshtml and Register.cshtml Stlying*/
 
-div .row {
+.row {
     justify-content: center;
     align-items: center;
 
 }
 
-div .col-md-4 h1 {
+.col-md-4 h1 {
     padding: 30px;
     text-align: center;
     color: cadetblue;
