@@ -17,7 +17,7 @@ html {
   min-height: 100%;
 }
 
-/*Styling affects the whole website (including all pages) */
+/* using "*" affects the styling of the whole website (including all pages) */
 * {
     color: red;
 }
