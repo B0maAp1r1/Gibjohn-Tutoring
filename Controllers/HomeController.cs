@@ -28,12 +28,12 @@ namespace Gibjohn_Tutoring.Controllers
             return View();
         }
 
-        public IActionResult contactUs()
+        public IActionResult ContactUs()
         {
             return View();
         }
 
-        public IActionResult aboutUs()
+        public IActionResult AboutUs()
         {
             return View();
         }

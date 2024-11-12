@@ -17,10 +17,19 @@ html {
   min-height: 100%;
 }
 
+* {
+    color: dodgerblue;
+}
+
 body {
-    background-image: ;
+    background-image: url(../image/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
+    width: 100vw;
     margin-bottom: 60px;
 }
+
+
+
+/*Index.cshtml styling*/
 
 /*div .container-fluid{
     display: flex;
