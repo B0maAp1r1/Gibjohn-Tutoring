@@ -171,13 +171,17 @@ div .nav_most_pop {
 }
 
 
+
 /*Login.cshtml Stlying*/
 
-section form #account {
-    display: flex;
+
+
+div .col-md-4 h1 {
+    color: cadetblue;
+}
+
+section, form #account {
     align-items: center;
     justify-content: center;
-    margin: auto;
-    left:500px;
-    color: yellow;
+    color: slategray;
 }
