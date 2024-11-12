@@ -68,11 +68,6 @@ div .header img {
     cursor: pointer;
 }
 
-    .db-option img {
-        width: 50px;
-        display: block;
-    }
-
     .db-option p:nth-child(2) {
         font-family: system-ui;
         font-size: 20px;
