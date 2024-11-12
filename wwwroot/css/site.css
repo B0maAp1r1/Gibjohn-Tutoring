@@ -1,3 +1,7 @@
+/** {
+    color: red;
+}*/
+
 html {
   font-size: 14px;
 }
@@ -18,9 +22,6 @@ html {
 }
 
 /* using "*" affects the styling of the whole website (including all pages) */
-* {
-    color: red;
-}
 
 body {
     background-image: url(../image/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
@@ -172,3 +173,11 @@ div .nav_most_pop {
 
 /*Login.cshtml Stlying*/
 
+section form #account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    left:500px;
+    color: yellow;
+}
