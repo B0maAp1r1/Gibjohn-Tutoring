@@ -127,7 +127,7 @@ div .header img {
 
 div .popular_used {
     position: absolute;
-    top: 650px;
+    top: 800px;
     left: 360px;
     width: 70%;
     min-height: 300px;
@@ -138,7 +138,7 @@ div .popular_used {
     justify-content: center;
 }
 
-    div .popular_used nav {
+/*    div .nav_most_pop nav {
         position: absolute;
         align-items: center;
         background-color: #fbe9f5;
@@ -148,12 +148,12 @@ div .popular_used {
         border-radius: 50px;
         bottom: 350px;
         text-align: center;
-    }
+    }*/
 
     div .bg-secondary {
         box-sizing: border-box;
-        width: 350px;
-        min-height: 300px;
+        width: 300px;
+        min-height: 250px;
         margin: 20px;
         padding: 30px;
         text-align: center;
