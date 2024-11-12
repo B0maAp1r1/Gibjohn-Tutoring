@@ -1,6 +1,6 @@
-/** {
-    color: red;
-}*/
+* {
+    color: cadetblue;
+}
 
 html {
   font-size: 14px;
@@ -174,9 +174,15 @@ div .nav_most_pop {
 
 /*Login.cshtml Stlying*/
 
+div .row {
+    justify-content: center;
+    align-items: center;
 
+}
 
 div .col-md-4 h1 {
+    padding: 30px;
+    text-align: center;
     color: cadetblue;
 }
 
@@ -185,3 +191,6 @@ section, form #account {
     justify-content: center;
     color: slategray;
 }
+
+/*Register.cshtml Styling*/
+
