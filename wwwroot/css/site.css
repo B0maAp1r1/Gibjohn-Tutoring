@@ -31,21 +31,24 @@ body {
 /*    width: 100vw;*/
     margin-bottom: 60px;
 }
+
+
+
 /*Index.cshtml styling*/
 
-div .head_bar pt-3 border-bottom{
+.head_bar pt-3 border-bottom{
     display: flex;
     text-align: center;
 }
 
-div .header h2 ,p {
+.header h2 ,p {
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
-div .header img {
+.header img {
     position: absolute;
     width: 200px;
     display: flex;
@@ -60,7 +63,7 @@ div .header img {
     justify-content: center;
 }
 
-div .db_option_carrier {
+.db_option_carrier {
     display: flex;
     align-items: center;
     text-align: center;
@@ -89,59 +92,7 @@ a {
     color: cadetblue;
 }
 
-    .db-option p:nth-child(2) {
-        font-family: system-ui;
-        font-size: 20px;
-        font-weight: 700;
-        padding: 25px 0 15px 0;
-    }
-
-    .db-option p:nth-child(3) {
-        font-family: system-ui;
-        font-size: 17px;
-        line-height: 30px;
-        height: 135px;
-    }
-
-    .db-option p:nth-child(4) {
-        font-family: system-ui;
-        font-size: 17px;
-        font-weight: 500;
-        text-transform: capitalize;
-        width: 200px;
-        transition: .3s all ease-in-out;
-    }
-
-    .db-option p:nth-child(5) {
-        font-family: system-ui;
-        font-size: 17px;
-        line-height: 30px;
-        height: 135px;
-    }
-
-    .db-option p:nth-child(6) {
-        font-family: system-ui;
-        font-size: 17px;
-        line-height: 30px;
-        height: 135px;
-    }
-
-.dashboard .pikin:nth-child(2) p:nth-child(4) .fa {
-    background: #e7f5fd;
-    color: #58a9fd;
-}
-
-.dashboard .pikin:nth-child(3) p:nth-child(4) .fa {
-    background: #e7fdf0;
-    color: #34ac62;
-}
-
-.dashboard .pikin:nth-child(4) p:nth-child(4) .fa {
-    background: #fbe9f5;
-    color: #e850a1;
-}
-
-div .popular_used {
+.popular_used {
     position: absolute;
     top: 800px;
     left: 360px;
@@ -154,7 +105,7 @@ div .popular_used {
     justify-content: center;
 }
 
-    div .bg-secondary {
+    .bg-secondary {
         box-sizing: border-box;
         opacity: 60%;
         width: 300px;
@@ -166,7 +117,7 @@ div .popular_used {
         cursor: pointer;
     }
 
-div .nav_most_pop {
+.nav_most_pop {
     position: absolute;
     text-align: center;
     background-color: #f9f9f9;
@@ -179,24 +130,26 @@ div .nav_most_pop {
     justify-content: center;
 }
 
-div .para_note {
+.para_note p {
     background-color: gray;
     max-height: 100px;
     width: 100%;
     text-align: center;
+    bottom: px;
+    position: absolute;
 }
 
 
 
 /*Login.cshtml and Register.cshtml Stlying*/
 
-div .row {
+.row {
     justify-content: center;
     align-items: center;
 
 }
 
-div .col-md-4 h1 {
+.col-md-4 h1 {
     padding: 30px;
     text-align: center;
     color: cadetblue;
