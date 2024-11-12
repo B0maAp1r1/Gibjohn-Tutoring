@@ -24,8 +24,10 @@ html {
 /* using "*" affects the styling of the whole website (including all pages) */
 
 body {
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../image/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
-    width: 100vw;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../image/olena-bohovyk-Ft_Wn-K5YH8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+/*    width: 100vw;*/
     margin-bottom: 60px;
 }
 /*Index.cshtml styling*/
@@ -169,7 +171,7 @@ div .nav_most_pop {
 
 
 
-/*Login.cshtml Stlying*/
+/*Login.cshtml and Register.cshtml Stlying*/
 
 div .row {
     justify-content: center;
@@ -188,8 +190,4 @@ section, form #account {
     justify-content: center;
     color: slategray;
 }
-
-
-
-/*Register.cshtml Styling*/
 
