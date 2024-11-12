@@ -17,8 +17,9 @@ html {
   min-height: 100%;
 }
 
+/*Styling affects the whole website (including all pages) */
 * {
-    color: dodgerblue;
+    color: red;
 }
 
 body {
@@ -30,10 +31,6 @@ body {
 
 
 /*Index.cshtml styling*/
-
-/*div .container-fluid{
-    display: flex;
-}*/
 
 div .head_bar pt-3 border-bottom{
     display: flex;
@@ -56,11 +53,7 @@ div .header img {
 }
 
 .dashboard {
-    /*background-color: #808080;*/
-/*    width: 10%;*/
     min-height: 45px;
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
     padding-top: 30px;
     align-items: center;
     justify-content: center;
@@ -78,7 +71,6 @@ div .db_option_carrier {
     width: 250px;
     max-height: 100px;
     background: #f9f9f9;
-/*    display: flex;*/
     margin: auto;
     padding: 30px;
     align-items: center;
@@ -153,18 +145,6 @@ div .popular_used {
     justify-content: center;
 }
 
-/*    div .nav_most_pop nav {
-        position: absolute;
-        align-items: center;
-        background-color: #fbe9f5;
-        justify-content: center;
-        min-height: 30px;
-        width: 43%;
-        border-radius: 50px;
-        bottom: 350px;
-        text-align: center;
-    }*/
-
     div .bg-secondary {
         box-sizing: border-box;
         width: 300px;
@@ -188,3 +168,7 @@ div .nav_most_pop {
     align-items: center;
     justify-content: center;
 }
+
+
+/*Login.cshtml Stlying*/
+
