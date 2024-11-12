@@ -64,20 +64,27 @@ div .db_option_carrier {
     align-items: center;
     text-align: center;
     justify-content: center;
+/*    text-decoration: none;*/
 }
 
 .db-option {
     box-sizing: border-box;
     width: 250px;
-    max-height: 100px;
+    max-height: 50px;
     background: #f9f9f9;
+    opacity: 60%;
     margin: auto;
-    padding: 30px;
+/*    padding: 30px;*/
+    text-decoration: none;
     align-items: center;
     text-align: center;
     justify-content: center;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.db_option a {
+    text-decoration: none;
 }
 
     .db-option p:nth-child(2) {
@@ -147,6 +154,7 @@ div .popular_used {
 
     div .bg-secondary {
         box-sizing: border-box;
+        opacity: 60%;
         width: 300px;
         min-height: 250px;
         margin: 20px;
