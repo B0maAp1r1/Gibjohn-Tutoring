@@ -131,11 +131,28 @@ a {
     justify-content: center;
 }
 
+.para_note {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    margin: 40px;
+}
+
+.para_note img {
+    width: 30%;
+
+}
+
 .para_note p {
-    background-color: cadetblue;
-    color: black;
-    height: 100px;
-    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    left: 70%;
+    box-sizing: border-box;
+    padding: 20px;
+    font-weight: bolder;
+    height: 427px;
+    width: 50%;
     text-align: center;
     position: absolute;
 }
