@@ -1,8 +1,8 @@
-* {
+/** {
     color: cadetblue;
     font-weight: bold;
 }
-
+*/
 html {
   font-size: 14px;
 }
@@ -25,24 +25,29 @@ html {
 /* using "*" affects the styling of the whole website (including all pages) */
 
 body {
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../image/olena-bohovyk-Ft_Wn-K5YH8-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-/*    width: 100vw;*/
-    margin-bottom: 60px;
+    margin-bottom: auto;
 }
 
 
 
 /*Index.cshtml styling*/
 
-.head_bar pt-3 border-bottom{
-    display: flex;
+.container-fluid main-holder {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));/*, url(../image/olena-bohovyk-Ft_Wn-K5YH8-unsplash.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.head_bar pt-3 border-bottom {
     text-align: center;
 }
 
 .header h2 ,p {
-    display: flex;
+
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -51,7 +56,6 @@ body {
 .header img {
     position: absolute;
     width: 200px;
-    display: flex;
     left: 0;
     top: 20px;
 }
@@ -68,7 +72,6 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
-/*    text-decoration: none;*/
 }
 
 .db-option {
@@ -76,9 +79,8 @@ body {
     width: 250px;
     max-height: 50px;
     background: #f9f9f9;
-    opacity: 60%;
+    font-weight: bold;
     margin: auto;
-/*    padding: 30px;*/
     text-decoration: none;
     align-items: center;
     text-align: center;
@@ -89,14 +91,14 @@ body {
 
 a {
     text-decoration: none;
-    color: cadetblue;
+    color: black
 }
 
 .popular_used {
-    position: absolute;
+/*    position: absolute;*/
     top: 800px;
     left: 360px;
-    width: 70%;
+    width: 100%;
     min-height: 300px;
     display: flex;
     flex-wrap: wrap;
@@ -107,7 +109,6 @@ a {
 
     .bg-secondary {
         box-sizing: border-box;
-        opacity: 60%;
         width: 300px;
         min-height: 250px;
         margin: 20px;
@@ -118,24 +119,24 @@ a {
     }
 
 .nav_most_pop {
-    position: absolute;
+    /*    position: absolute;*/
     text-align: center;
     background-color: #f9f9f9;
     border-radius: 50px;
     bottom: 300px;
-    opacity: 50%;
-    width: 43%;
+    width: 100%;
     min-height: 15px;
     align-items: center;
+    font-weight: bold;
     justify-content: center;
 }
 
 .para_note p {
-    background-color: gray;
-    max-height: 100px;
+    background-color: cadetblue;
+    color: black;
+    height: 100px;
     width: 100%;
     text-align: center;
-/*    bottom: px;*/
     position: absolute;
 }
 
@@ -144,15 +145,16 @@ a {
 /*Login.cshtml and Register.cshtml Stlying*/
 
 .row {
+    background-image: linear-gradient(cadetblue, rgba(10, 20, 30, 0.7)), url('../image/GibJohn Tutoring-.png');
+    background-size: cover;
+    background-position: center;
     justify-content: center;
     align-items: center;
-
 }
 
 .col-md-4 h1 {
     padding: 30px;
     text-align: center;
-    color: cadetblue;
 }
 
 section, form #account {

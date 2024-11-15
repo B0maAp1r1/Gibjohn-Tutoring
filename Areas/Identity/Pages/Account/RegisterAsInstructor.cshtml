@@ -10,7 +10,7 @@
 @* <h1>@ViewData["Title"]</h1> *@
 <div class="row">
     <div class="col-md-4">
-        <h1 class="">Log In</h1>
+        <h1 class=""> Register As Instructor</h1>
         <section>
             <form id="account" method="post">
                 <hr />
@@ -36,19 +36,13 @@
                     </label>
                 </div>
                 <div>
-                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Log in</button>
+                    <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
                 </div>
 
                 @*This div contains links that give the user options to confirm their email, reset their password, and resend email confrmation if not received in previous tries*@
                 <div>
                     <p>
-                        <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
-                    </p>
-                    <p>
                         <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
-                    </p>
-                    <p>
-                        <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
                     </p>
                 </div>
             </form>
