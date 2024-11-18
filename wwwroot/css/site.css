@@ -17,8 +17,6 @@ html {
   min-height: 100%;
 }
 
-/* using "*" affects the styling of the whole website (including all pages) */
-
 body {
     /*margin-bottom: auto;*/
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 10));
@@ -29,21 +27,18 @@ body {
 
 
 
-/*Index.cshtml styling*/
-
+/*INDEX.CSHMTL STYLING*/
 .container-fluid main-holder {
     position: relative;
     width: 100%;
     height: 100vh;
-
 }
 
 .head_bar pt-3 border-bottom {
     text-align: center;
 }
 
-.header h2 ,p {
-
+.header h2, p {
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -90,7 +85,7 @@ a {
     color: black
 }
 
-.welcoming_images img{
+.welcoming_images img {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -115,16 +110,16 @@ a {
     justify-content: center;
 }
 
-    .bg-secondary {
-        box-sizing: border-box;
-        width: 300px;
-        min-height: 250px;
-        margin: 20px;
-        padding: 30px;
-        text-align: center;
-        border-radius: 20px;
-        cursor: pointer;
-    }
+.bg-secondary {
+    box-sizing: border-box;
+    width: 300px;
+    min-height: 250px;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
 
 .nav_most_pop {
     text-align: center;
@@ -146,30 +141,26 @@ a {
     margin: 40px;
 }
 
-.para_note img {
-    width: 30%;
-    border-radius: 15px
+    .para_note img {
+        width: 20%;
+        border-radius: 15px
+    }
 
-}
+    .para_note p {
+        font-size: x-large;
+        left: 40%;
+        box-sizing: border-box;
+        padding: 20px;
+        margin: auto;
+        font-weight: bolder;
+        width: 50%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+    }
 
-.para_note p {
-    font-size: medium;
-    left: 40%;
-    box-sizing: border-box;
-    padding: 20px;
-    margin: auto;
-    font-weight: bolder;
-    width: 50%;
-    text-align: center;
-    justify-content:center;
-    align-items: center;
-    position: absolute;
-}
-
-
-
-/*Login.cshtml and Register.cshtml Stlying*/
-
+/*LOGIN.CSHTML, REGISTER.CSHTML AND REGISTERASINSTRUCTOR.CSHTML STYLING*/
 .row {
     background-image: linear-gradient(cadetblue, rgba(10, 20, 30, 0.7)), url('../image/GibJohn Tutoring-.png');
     background-size: cover;
@@ -188,4 +179,167 @@ section, form #account {
     align-items: center;
     justify-content: center;
     color: slategray;
+}
+
+
+
+/*RESPONSIVE STYLING FOR THE WEBSITE WHEN WIDTH IS REDUCED TO A CERTAIN SIZE*/
+@media (max-width: 1308px) {
+    /*Index.cshtml styling*/
+
+    .container-fluid main-holder {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .head_bar pt-3 border-bottom {
+        text-align: center;
+    }
+
+    .header h2, p {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header img {
+        position: absolute;
+        width: 200px;
+        left: 0;
+        top: 20px;
+    }
+
+    .dashboard {
+        min-height: 45px;
+        padding-top: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .db_option_carrier {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .db-option {
+        box-sizing: border-box;
+        width: 250px;
+        max-height: 50px;
+        background: #f9f9f9;
+        font-weight: bold;
+        margin: auto;
+        text-decoration: none;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: black
+    }
+
+    .welcoming_images img {
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        width: 500px;
+        min-height: 250px;
+        margin: 20px;
+        padding: 30px;
+        text-align: center;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .popular_used {
+        top: 800px;
+        left: 360px;
+        width: 100%;
+        min-height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bg-secondary {
+        box-sizing: border-box;
+        width: 300px;
+        min-height: 250px;
+        margin: 20px;
+        padding: 30px;
+        text-align: center;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .nav_most_pop {
+        text-align: center;
+        background-color: #f9f9f9;
+        border-radius: 50px;
+        bottom: 300px;
+        width: 100%;
+        min-height: 15px;
+        align-items: center;
+        font-weight: bold;
+        justify-content: center;
+    }
+
+    .para_note {
+        display: flex;
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        margin: 40px;
+    }
+
+        .para_note img {
+            width: 30%;
+            border-radius: 15px
+        }
+
+        .para_note p {
+            font-size: medium;
+            left: 40%;
+            box-sizing: border-box;
+            padding: 20px;
+            margin: auto;
+            font-weight: bolder;
+            width: 50%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+        }
+
+
+
+    /*Login.cshtml and Register.cshtml Stlying*/
+
+    .row {
+        background-image: linear-gradient(cadetblue, rgba(10, 20, 30, 0.7)), url('../image/GibJohn Tutoring-.png');
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+        height: 93.3vh;
+    }
+
+    .col-md-4 h1 {
+        padding: 30px;
+        text-align: center;
+    }
+
+    section, form #account {
+        align-items: center;
+        justify-content: center;
+        color: slategray;
+    }
 }
