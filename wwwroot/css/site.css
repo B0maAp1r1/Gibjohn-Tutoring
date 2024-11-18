@@ -1,8 +1,3 @@
-/** {
-    color: cadetblue;
-    font-weight: bold;
-}
-*/
 html {
   font-size: 14px;
 }
@@ -25,7 +20,11 @@ html {
 /* using "*" affects the styling of the whole website (including all pages) */
 
 body {
-    margin-bottom: auto;
+    /*margin-bottom: auto;*/
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 10));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -36,10 +35,7 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));/*, url(../image/olena-bohovyk-Ft_Wn-K5YH8-unsplash.jpg);*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
 }
 
 .head_bar pt-3 border-bottom {
@@ -169,6 +165,7 @@ a {
     background-position: center;
     justify-content: center;
     align-items: center;
+    height: 93.3vh;
 }
 
 .col-md-4 h1 {
@@ -181,4 +178,3 @@ section, form #account {
     justify-content: center;
     color: slategray;
 }
-
