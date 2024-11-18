@@ -90,9 +90,11 @@ a {
     color: black
 }
 
-.welcoming_images {
+.welcoming_images img{
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
-    width: 300px;
+    width: 500px;
     min-height: 250px;
     margin: 20px;
     padding: 30px;
@@ -102,7 +104,6 @@ a {
 }
 
 .popular_used {
-/*    position: absolute;*/
     top: 800px;
     left: 360px;
     width: 100%;
@@ -126,7 +127,6 @@ a {
     }
 
 .nav_most_pop {
-    /*    position: absolute;*/
     text-align: center;
     background-color: #f9f9f9;
     border-radius: 50px;
