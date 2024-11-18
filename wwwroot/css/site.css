@@ -133,27 +133,29 @@ a {
 
 .para_note {
     display: flex;
-    flex-wrap: wrap;
-    background-color: gray;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
     margin: 40px;
 }
 
 .para_note img {
     width: 30%;
+    border-radius: 15px
 
 }
 
 .para_note p {
-    background-color: black;
-    color: white;
     font-size: medium;
-    left: 70%;
+    left: 40%;
     box-sizing: border-box;
     padding: 20px;
+    margin: auto;
     font-weight: bolder;
-    height: 427px;
     width: 50%;
     text-align: center;
+    justify-content:center;
+    align-items: center;
     position: absolute;
 }
 
