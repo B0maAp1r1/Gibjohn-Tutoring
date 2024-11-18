@@ -1,8 +1,11 @@
-using Gibjohn_Tutoring.Data;
+﻿using Gibjohn_Tutoring.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<Gibjohn_TutoringContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Gibjohn_TutoringContext") ?? throw new InvalidOperationException("Connection string 'Gibjohn_TutoringContext' not found.")));
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
