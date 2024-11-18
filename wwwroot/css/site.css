@@ -19,7 +19,7 @@ html {
 
 body {
     /*margin-bottom: auto;*/
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 10));
+    background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.9));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -85,7 +85,11 @@ a {
     color: black
 }
 
-.welcoming_images img {
+/*.welcoming_images {
+    display: flex;
+}*/
+
+.welcoming_images img{
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -95,8 +99,13 @@ a {
     padding: 30px;
     text-align: center;
     border-radius: 20px;
-    cursor: pointer;
 }
+
+/*.wlcimg_row2 img{
+    align-items: center;
+    justify-content: center;
+    left: 500px;
+}*/
 
 .popular_used {
     top: 800px;
@@ -135,6 +144,8 @@ a {
 
 .para_note {
     display: flex;
+    justify-self: center;
+    width: 70%;
     background-color: black;
     color: white;
     border-radius: 15px;
@@ -147,8 +158,8 @@ a {
     }
 
     .para_note p {
-        font-size: x-large;
-        left: 40%;
+        font-size: large;
+        left: 30%;
         box-sizing: border-box;
         padding: 20px;
         margin: auto;
