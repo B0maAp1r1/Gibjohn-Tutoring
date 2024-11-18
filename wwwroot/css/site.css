@@ -90,6 +90,17 @@ a {
     color: black
 }
 
+.welcoming_images {
+    box-sizing: border-box;
+    width: 300px;
+    min-height: 250px;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 .popular_used {
 /*    position: absolute;*/
     top: 800px;
