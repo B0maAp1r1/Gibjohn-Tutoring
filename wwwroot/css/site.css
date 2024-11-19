@@ -85,36 +85,46 @@ a {
     color: black;
 }
 
-/*.welcoming_images {
-    display: flex;
-}*/
-
-
 .wlcm_screen {
     display: flex;
+    width: 100%;
 }
 
 .wlcm_img {
+    display: flex;
+    width: 70%;
+}
+
+.wlcm-img_row1 img, .wlcm-img_row2 img {
+    display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
     width: 500px;
     min-height: 250px;
     margin: 20px;
-    padding: 30px;
-    text-align: center;
     border-radius: 20px;
 }
 
 .wlcm_text {
-    font-size: xx-large;
+    background: gray;
+    opacity: 50%;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    width: 30%;
+    left: 70%;
+    box-sizing: border-box;
+    min-height: 250px;
+    margin: auto;
+    border-radius: 20px;
 }
 
-/*.wlcimg_row2 img{
-    align-items: center;
-    justify-content: center;
-    left: 500px;
-}*/
+    .wlcm_text p {
+        top: 70%;
+        text-align: center;
+        font-size: xx-large;
+    }
 
 .popular_used {
     top: 800px;
@@ -136,7 +146,6 @@ a {
     padding: 30px;
     text-align: center;
     border-radius: 20px;
-    cursor: pointer;
 }
 
 .nav_most_pop {
@@ -313,7 +322,7 @@ section, form #account {
     }
 
     .para_note {
-        width: 100%;
+        width: 80%;
         display: flex;
         background-color: black;
         color: white;
