@@ -82,7 +82,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black
+    color: black;
 }
 
 /*.welcoming_images {
@@ -252,7 +252,7 @@ section, form #account {
 
     a {
         text-decoration: none;
-        color: black
+        color: black;
     }
 
     .welcoming_images img {
@@ -304,11 +304,12 @@ section, form #account {
     }
 
     .para_note {
+        width: 100%;
         display: flex;
         background-color: black;
         color: white;
         border-radius: 15px;
-        margin: 40px;
+        margin: auto;
     }
 
         .para_note img {
