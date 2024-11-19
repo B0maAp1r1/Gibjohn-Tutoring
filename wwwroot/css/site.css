@@ -89,7 +89,12 @@ a {
     display: flex;
 }*/
 
-.welcoming_images img{
+
+.wlcm_screen {
+    display: flex;
+}
+
+.wlcm_img {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -99,6 +104,10 @@ a {
     padding: 30px;
     text-align: center;
     border-radius: 20px;
+}
+
+.wlcm_text {
+    font-size: xx-large;
 }
 
 /*.wlcimg_row2 img{
