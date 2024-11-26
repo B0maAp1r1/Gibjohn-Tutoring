@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Gibjohn_Tutoring.Areas.Identity.Pages.Account
+namespace Gibjohn_Tutoring.Controllers
 {
-    public class RegisterAsInstructor : Controller
+    public class Courses : Controller
     {
         public IActionResult Index()
         {
