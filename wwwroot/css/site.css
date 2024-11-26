@@ -45,21 +45,21 @@ body {
     top: 20px;
 }
 
-#dashboard {
+#options {
     min-height: 45px;
     padding: 2%;
     align-items: center;
     justify-content: center;
 }
 
-#db_option_carrier {
+#option_carrier {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
 
-#db-option {
+#option {
     box-sizing: border-box;
     width: 20%;
     max-height: 7%;
@@ -80,46 +80,35 @@ a {
 
 #wlcm_screen {
     display: flex;
-    width: 100%;
 }
 
-#wlcm_img img{
-    width: 70%;
-    height: 75%;
-    margin: auto;
-    border-radius: 20px;
-/*    left: 60%;
-    right: 0;*/
-}
-
-/*#wlcm-img_row1 img, .wlcm-img_row2 img {
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    width: 500px;
-    min-height: 250px;
-    margin: 20px;
-    border-radius: 20px;
-    justify-content: center;
-}*/
-
-#wlcm_text {
-    background: gray;
-    width: 30%;
-    left: 0;
-    right: 70%;
-    box-sizing: border-box;
-    min-height: 50%;
-    margin: auto;
-    border-radius: 20px;
-}
-
-    #wlcm_text p {
-        top: 70%;
-        font-weight: bolder;
-        text-align: center;
-        font-size: xx-large;
+    #wlcm_img {
+        display: grid;
     }
+
+        #wlcm_img img {
+            left: 70%;
+            height: 80%;
+            width: 70%;
+            justify-self: center;
+            top: 10%;
+            border-radius: 20px;
+            position: relative;
+        }
+
+    #wlcm_text {
+        display: grid;
+        width: 30%;
+        border-radius: 20px;
+        right: -11%;
+    }
+
+        #wlcm_text h1 p {
+            position: relative;
+            font-weight: bold;
+            text-align: center;
+            font-size: x-large;
+        }
 
 #popular_used {
     top: 800px;
@@ -133,67 +122,27 @@ a {
     padding-top: 2%;
 }
 
-#nav_most_pop {
-    text-align: center;
-    background-color: #f9f9f9;
-    border-radius: 20px;
-    bottom: 30%;
-    width: 95%;
-    height: 2%;
-    align-items: center;
-    font-weight: bold;
-    justify-content: center;
-}
+    #pop_course_nav {
+        text-align: center;
+        background-color: #f9f9f9;
+        border-radius: 20px;
+        bottom: 30%;
+        width: 95%;
+        height: 2%;
+        align-items: center;
+        font-weight: bold;
+        justify-content: center;
+    }
 
-#popular_course {
-    box-sizing: border-box;
-    width: 13%;
-    max-height: 10%;
-    margin: 2%;
-    padding: 2%;
-    text-align: center;
-    border-radius: 20px;
-}
-
-/*#popular_course p:nth-child(2) {
-    box-sizing: border-box;
-    width: 13%;
-    max-height: 10%;
-    margin: 2%;
-    padding: 2%;
-    text-align: center;
-    border-radius: 20px;
-}
-
-#popular_course p:nth-child(3) {
-    box-sizing: border-box;
-    width: 13%;
-    max-height: 10%;
-    margin: 2%;
-    padding: 2%;
-    text-align: center;
-    border-radius: 20px;
-}
-
-#popular_course p:nth-child(4) {
-    box-sizing: border-box;
-    width: 13%;
-    max-height: 10%;
-    margin: 2%;
-    padding: 2%;
-    text-align: center;
-    border-radius: 20px;
-}
-
-#popular_course p:nth-child(5) {
-    box-sizing: border-box;
-    width: 13%;
-    max-height: 10%;
-    margin: 2%;
-    padding: 2%;
-    text-align: center;
-    border-radius: 20px;
-}*/
+    #popular_course {
+        box-sizing: border-box;
+        width: 13%;
+        max-height: 10%;
+        margin: 2%;
+        padding: 2%;
+        text-align: center;
+        border-radius: 20px;
+    }
 
 #para_note {
     display: flex;
@@ -234,48 +183,37 @@ a {
         width: 100%;
     }
 
-#contact-us {
+#contactUs {
     width: 80%;
     margin: auto;
 }
 
-.contact-col {
-    flex-basis: 48%;
-    margin-bottom: 30px;
-}
+    #contactLabels {
+        flex-basis: 48%;
+        margin-bottom: 30px;
+    }
 
-    .contact-col div {
-        display: flex;
+    #contactLabels div {
         align-items: center;
-        margin-bottom: 40px;
     }
 
-        .contact-col div .fa {
-            font-size: 28px;
-            color: #f44336;
-            margin: 10px;
-            margin-right: 30px;
+        #contactLabels div .fa {
         }
 
-        .contact-col div p {
-            padding: 0;
+        #contactLabels div h5 p {
+            color: black;
         }
 
-        .contact-col div h5 {
-            font-size: 20px;
-            margin-bottom: 5px;
-            color: #555;
-            font-weight: 400;
+        #contactInputs input, #contactInputs textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 17px;
+            outline: none;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
         }
 
-    .contact-col input, .contact-col textarea {
-        width: 100%;
-        padding: 15px;
-        margin-bottom: 17px;
-        outline: none;
-        border: 1px solid #ccc;
-        box-sizing: border-box;
-    }
+
 
 /*LOGIN.CSHTML, REGISTER.CSHTML AND REGISTERASINSTRUCTOR.CSHTML STYLING*/
 .row {
@@ -300,14 +238,13 @@ section, form #account {
 
 
 
-/*RESPONSIVE STYLING FOR THE WEBSITE WHEN WIDTH IS REDUCED TO A CERTAIN SIZE*/
-@media (max-width: 1308px) {
-    /*Index.cshtml styling*/
-
+/*RESPONSIVE STYLING FOR THE WEBSITE WHEN WIDTH IS REDUCED TO A CERTAIN SIZE TO A DEVICE*/
+@media (max-width: 402px) {
+    /*INDEX.CSHMTL STYLING*/
     #header {
         width: 100%;
         padding-top: 75px;
-        padding-bottom: 20px;
+        padding-bottom: 20px
     }
 
         #header h2 {
@@ -320,27 +257,27 @@ section, form #account {
             position: absolute;
             width: 200px;
             left: 0;
-            top: 20px;
+            top: 12px;
         }
 
-    #dashboard {
+    #options {
         min-height: 45px;
-        padding-top: 30px;
+        padding: 2%;
         align-items: center;
         justify-content: center;
     }
 
-    #db_option_carrier {
+    #option_carrier {
         display: flex;
         align-items: center;
         text-align: center;
         justify-content: center;
     }
 
-    #db-option {
+    #option {
         box-sizing: border-box;
-        width: 250px;
-        max-height: 50px;
+        width: 20%;
+        max-height: 7%;
         background: #f9f9f9;
         font-weight: bold;
         margin: auto;
@@ -349,7 +286,6 @@ section, form #account {
         text-align: center;
         justify-content: center;
         border-radius: 20px;
-        cursor: pointer;
     }
 
     a {
@@ -359,45 +295,40 @@ section, form #account {
 
     #wlcm_screen {
         display: flex;
-        width: 100%;
     }
 
-    #wlcm-img_row1 img, .wlcm-img_row2 img {
-        justify-content: center;
-        align-items: center;
-        box-sizing: border-box;
-        width: 300px;
-        min-height: 150px;
-        margin: 20px;
-        border-radius: 20px;
+    #wlcm_img {
+        display: grid;
     }
 
-        #wlcm-img_row1 img{
-            display: flex;
-        }
-
-        #wlcm-img_row2 img {
-
+        #wlcm_img img {
+            left: 13.8%;
+            height: 80%;
+            width: 50%;
+            justify-self: center;
+            top: 10%;
+            border-radius: 20px;
+            position: relative;
         }
 
     #wlcm_text {
-        background: gray;
-        opacity: 50%;
-        align-items: center;
-        justify-self: center;
-        justify-content: center;
+        display: grid;
+        position: relative;
         width: 30%;
-        left: 70%;
-        box-sizing: border-box;
-        min-height: 250px;
-        margin: auto;
         border-radius: 20px;
+        position: relative;
+        right: -11%;
     }
 
-        #wlcm_text p {
-            top: 70%;
+        #wlcm_text h1 {
+            top: 30%;
             text-align: center;
-            font-size: xx-large;
+        }
+
+        #wlcm_text p {
+            font-weight: bold;
+            text-align: center;
+            font-size: x-large;
         }
 
     #popular_used {
@@ -407,65 +338,109 @@ section, form #account {
         min-height: 300px;
         display: flex;
         flex-wrap: wrap;
-        padding-top: 15px;
         align-items: center;
         justify-content: center;
+        padding-top: 2%;
     }
 
-    #bg-secondary {
-        box-sizing: border-box;
-        width: 300px;
-        min-height: 250px;
-        margin: 20px;
-        padding: 30px;
-        text-align: center;
-        border-radius: 20px;
-    }
-
-    #nav_most_pop {
+    #pop_course_nav {
         text-align: center;
         background-color: #f9f9f9;
-        border-radius: 50px;
-        bottom: 300px;
-        width: 100%;
-        min-height: 15px;
+        border-radius: 20px;
+        bottom: 30%;
+        width: 95%;
+        height: 2%;
         align-items: center;
         font-weight: bold;
         justify-content: center;
     }
 
+    #popular_course {
+        box-sizing: border-box;
+        width: 13%;
+        max-height: 10%;
+        margin: 2%;
+        padding: 2%;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    #popular_course h5 {
+        font: 2px;
+    }
+
     #para_note {
-        width: 80%;
         display: flex;
+        justify-self: center;
+        width: 70%;
         background-color: black;
         color: white;
-        border-radius: 15px;
-        margin: auto;
+        border-radius: 20px;
+        margin: 2%;
     }
 
         #para_note img {
-            width: 30%;
-            border-radius: 15px
+            width: 20%;
+            border-start-start-radius: 20px;
         }
 
         #para_note p {
-            font-size: 14px;
-            left: 40%;
+            font-size: large;
+            left: 30%;
             box-sizing: border-box;
-            padding: 20px;
+            padding: 1.4%;
             margin: auto;
-            font-weight: bold;
+            font-weight: bolder;
             width: 50%;
             text-align: center;
             justify-content: center;
             align-items: center;
-            position: absolute;
         }
 
+    /*ContactUs.cshtml Styling*/
+    #location {
+        width: 80%;
+        margin: auto;
+        padding: 80px 0;
+    }
+
+        #location iframe {
+            width: 100%;
+        }
+
+    #contactUs {
+        width: 80%;
+        margin: auto;
+    }
+
+    #contactLabels {
+        flex-basis: 48%;
+        margin-bottom: 30px;
+    }
+
+        #contactLabels div {
+            align-items: center;
+        }
+
+            #contactLabels div .fa {
+            }
+
+            #contactLabels div h5 p {
+                color: black;
+            }
+
+    #contactInputs input, #contactInputs textarea {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 17px;
+        outline: none;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
 
 
-    /*Login.cshtml and Register.cshtml Stlying*/
 
+    /*LOGIN.CSHTML, REGISTER.CSHTML AND REGISTERASINSTRUCTOR.CSHTML STYLING*/
     .row {
         background-image: linear-gradient(cadetblue, rgba(10, 20, 30, 0.7)), url('../image/GibJohn Tutoring-.png');
         background-size: cover;

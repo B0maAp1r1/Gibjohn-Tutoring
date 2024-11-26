@@ -2,31 +2,38 @@
     ViewData["Title"] = "Contact Us";
 }
 
-<section class="Contact-us">
+<section id="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2456.6457244522685!2d-0.7816601221922813!3d51.995110571928386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876ff8daa6dcdc9%3A0x1a93ec62c147871a!2s7%20Porthmellin%20Cl%2C%20Tattenhoe%2C%20Milton%20Keynes%20MK4%203AQ!5e0!3m2!1sen!2suk!4v1732634450112!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    <div class="row">
-        <div class="contact-col">
+</section>
+
+<section id="contactUs">
+
+    <div id="contactMain">
+        <div id="contactLabels">
             <div>
-                    <h5>3, Edmund Court</h5>
-                    <p>Shenley Church End</p>
+                <i id="fa fa-home"></i>
+                <h5>7 Porthmellin Close</h5>
+                <p>Rosemullion Avenue, Tattenhoe</p>
             </div>
             <div>
-                <i class="fa fa-phone"></i>
-                    <h5>+44 7311308686</h5>
-                    <p>Monday to Sarturday, 9am to 5pm</p>
+                <i id="fa fa-phone"></i>
+                <h5>+44 7311308686</h5>
+                <p>Available Monday to Sarturday, 10am to 6pm</p>
             </div>
             <div>
-                    <h5>info@beeline.com</h5>
-                    <p>Email us your query</p>
+                <i id="fa fa-envelope"></i>
+                <h5>info@beeline.com</h5>
+                <p>Email us your query</p>
             </div>
         </div>
-        <div class="contactForm">
+        <div id="contactInputs">
 
-            <form action="/" method="post">
+            <form action="form-handler.php" method="post">
                 <input type="text" name="name" placeholder="Enter your Name" required>
                 <input type="email" name="email" placeholder="Enter your Email Address" required>
                 <textarea rows="8" name="Message" placeholder="Message" required></textarea>
-                <button type="Submit" class="contactSubmit">Send Message</button>
+                <button type="Submit" id="hero-btn red-btn" class="bg-info text-black">Send Message</button>
             </form>
 
         </div>
