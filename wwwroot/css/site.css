@@ -19,7 +19,7 @@ html {
 
 body {
     /*margin-bottom: auto;*/
-    background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.9));
+    background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 10, 0.9));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -83,32 +83,22 @@ a {
 }
 
     #wlcm_img {
+        padding-right: 50px;
         display: grid;
     }
 
         #wlcm_img img {
-            left: 70%;
-            height: 80%;
-            width: 70%;
+            height: 100%;
             justify-self: center;
-            top: 10%;
             border-radius: 20px;
-            position: relative;
         }
 
     #wlcm_text {
         display: grid;
-        width: 30%;
         border-radius: 20px;
         right: -11%;
+        font-size: 100px;
     }
-
-        #wlcm_text h1 p {
-            position: relative;
-            font-weight: bold;
-            text-align: center;
-            font-size: x-large;
-        }
 
 #popular_used {
     top: 800px;
@@ -148,7 +138,7 @@ a {
     display: flex;
     justify-self: center;
     width: 70%;
-    background-color: black;
+    background-color: rgb(88, 38, 38);
     color: white;
     border-radius: 20px;
     margin: 2%;
