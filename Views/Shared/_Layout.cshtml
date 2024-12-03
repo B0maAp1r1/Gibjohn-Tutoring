@@ -10,9 +10,9 @@
 </head>
 <body>
     @*Navigation bar containing linka to navigate to other pages*@
-    <header style="padding-bottom: 10%;">
-        <nav class="position-fixed w-100 navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid" style="background: ">
+    <header>
+        <nav class="position-fixed w-100 navbar text-white navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow border-0 m-0 p-0" style="background: rgb(15, 20, 68);">
+            <div class="container-fluid p-0 m-0">
                 <img src="~/image/Logo maker project.jpeg" style="width: 200px; " alt="Logo" />
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"></a>
                 <h1 class="text-center align-items-center position-absolute justify-content-center" style="left: 44%;">GibJohn Tutoring</h1>
@@ -23,7 +23,7 @@
                 <div class="navbar-collapse collapse sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />

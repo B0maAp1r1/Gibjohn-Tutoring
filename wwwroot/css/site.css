@@ -19,10 +19,7 @@ html {
 
 body {
     /*margin-bottom: auto;*/
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: rgb(248, 248, 248);
 }
 
 /*INDEX.CSHMTL STYLING*/
@@ -43,28 +40,22 @@ body {
 #option {
     box-sizing: border-box;
     width: 20%;
-    max-height: 10%;
+    max-height: 2%;
     background: transparent;
-    font-weight: bold;
+    font-size: x-large;
     margin: auto;
     text-decoration: none;
     align-items: center;
     text-align: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 
-    #option :hover {
-        background: #f9f9f9;
-        box-sizing: border-box;
-        border-radius: 20px;
-        margin: auto;
-        width: 20%;
-        transition: 0.5s;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        padding: 2% 8%;
+    #option button {
+        width: 100%;
+        font-weight: bold;
+        border-radius: 40px;
+        background: cadetblue;
     }
 
 a {
@@ -75,14 +66,6 @@ a {
     a:hover {
         color: black;
     }
-
-/*#anchor_tag {
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    background: transparent;
-    position: relative;
-}*/
 
 #wlcm_screen {
     display: flex;
@@ -118,27 +101,28 @@ a {
     padding-top: 2%;
 }
 
-    #pop_course_nav {
-        text-align: center;
-        background-color: #f9f9f9;
-        border-radius: 20px;
-        bottom: 30%;
-        width: 95%;
-        height: 2%;
-        align-items: center;
-        font-weight: bold;
-        justify-content: center;
-    }
+#pop_course_nav {
+    text-align: center;
+    font-size: x-large;
+    background-color: cadetblue;
+    border-radius: 20px;
+    bottom: 30%;
+    width: 95%;
+    height: 2%;
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+}
 
-    #popular_course {
-        box-sizing: border-box;
-        width: 13%;
-        max-height: 10%;
-        margin: 2%;
-        padding: 2%;
-        text-align: center;
-        border-radius: 20px;
-    }
+#popular_course {
+    box-sizing: border-box;
+    width: 13%;
+    max-height: 10%;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    border-radius: 20px;
+}
 
 #para_note {
     display: flex;
