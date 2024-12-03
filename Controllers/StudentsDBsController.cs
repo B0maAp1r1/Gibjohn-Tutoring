@@ -54,7 +54,7 @@ namespace Gibjohn_Tutoring.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Email,Password")] StudentsDB studentsDB)
+        public async Task<IActionResult> Create([Bind("Id,Username,Email,Password")] StudentsDB studentsDB)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace Gibjohn_Tutoring.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Email,Password")] StudentsDB studentsDB)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Username,Email,Password")] StudentsDB studentsDB)
         {
             if (id != studentsDB.Id)
             {
