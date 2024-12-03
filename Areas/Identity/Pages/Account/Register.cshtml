@@ -36,9 +36,9 @@
             </div>
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
             <p>
-                <a id="register-as-instructor" asp-page="./RegisterAsInstructor">Want to be an Instructor? Register As Instructor</a>
+                <a id="register-as-instructor" class="btn-close-white" asp-page="./RegisterAsInstructor">Want to be an Instructor? Register As Instructor</a>
                 <br />
-                <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Already have an account? Log In</a>
+                <a asp-page="./Login" class="btn-close-white" asp-route-returnUrl="@Model.ReturnUrl">Already have an account? Log In</a>
 
             </p>
         </form>
