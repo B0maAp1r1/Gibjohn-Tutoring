@@ -39,9 +39,10 @@ body {
 
 #option {
     box-sizing: border-box;
+    background: cadetblue;
     width: 20%;
+    font-weight: bold;
     max-height: 2%;
-    background: transparent;
     font-size: x-large;
     margin: auto;
     text-decoration: none;
@@ -50,13 +51,6 @@ body {
     justify-content: center;
     border-radius: 40px;
 }
-
-    #option button {
-        width: 100%;
-        font-weight: bold;
-        border-radius: 40px;
-        background: cadetblue;
-    }
 
 a {
     text-decoration: none;
